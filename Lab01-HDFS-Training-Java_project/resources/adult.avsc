@@ -1,0 +1,21 @@
+{"namespace": "adult.avro",
+ "type": "record",
+ "name": "Adult",
+ "fields": [
+     {"name": "age", "type": ["int", "null"]},
+     {"name": "workclass",  "type": ["string", "null"]},
+     {"name": "fnlwgt", "type": ["int", "null"]},
+     {"name": "education", "type": ["string", "null"]},
+     {"name": "education_num", "type": ["int", "null"]},
+     {"name": "marital_status", "type": ["string", "null"]},
+     {"name": "occupation", "type": ["string", "null"]},
+     {"name": "relationship", "type": ["string", "null"]},
+     {"name": "race", "type": ["string", "null"]},
+     {"name": "sex", "type": ["string", "null"]},
+     {"name": "capital_gain", "type": ["int", "null"]},
+     {"name": "capital_loss", "type": ["int", "null"]},
+     {"name": "hours_per_week", "type": ["int", "null"]},
+     {"name": "native_country", "type": ["string", "null"]},
+     {"name": "salary_range", "type": ["string", "null"]}
+ ]
+}
